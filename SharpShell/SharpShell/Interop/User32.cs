@@ -6,6 +6,9 @@ using System.Text;
 
 namespace SharpShell.Interop
 {
+    /// <summary>
+    /// Native functions wrap for user32.dll
+    /// </summary>
     public static class User32
     {
         [DllImport("user32.dll", CharSet = CharSet.Unicode)]

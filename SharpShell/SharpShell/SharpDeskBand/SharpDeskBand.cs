@@ -324,7 +324,7 @@ namespace SharpShell.SharpDeskBand
 
             //  Hide the band.
             lazyDeskBand.Value.Hide();
-
+            
             //  Return success.
             return WinError.S_OK;
         }
